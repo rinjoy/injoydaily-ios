@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "injoy",
+    "slug": "injoy",
+    "privacy": "public",
+    "notification": {
+      "iosDisplayInForeground": true
+    },
+    "sdkVersion": "37.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "facebookScheme": "fb713763516129949",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/splashimg.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "icon": "./assets/imjoy-daily-appicon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "usesAppleSignIn":true,
+      "bundleIdentifier": "com.injoy.daily",
+      "buildNumber": "1.2.9",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app is able to upload image for your profile and for posts.",
+        "NSCameraUsageDescription": "This app is able to upload image for your profile and for posts."
+      },
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.283971303975-g82qihhqfovdd8b9jr0t51a639s3169u"
+        }
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.injoy.daily",
+      "versionCode": 1,
+      "config": {
+        "googleSignIn": {
+          "certificateHash": "9om/zsvAHwT+/LIIFG1BNoHmWUA="
+        }
+      }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}

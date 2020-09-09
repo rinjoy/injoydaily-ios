@@ -1,0 +1,6 @@
+module Pods_injoy {
+  umbrella header "Pods-injoy-umbrella.h"
+
+  export *
+  module * { export * }
+}
